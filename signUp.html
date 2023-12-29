@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container my-5 text-center">
+        <div class="system p-5 m-auto  text-white">
+            <h1>Smart Login System</h1>
+            <input type="text" id="signUserName" class="form-control my-3" placeholder="Enter your Name">
+            <div id="vaildationName" class="text-start d-none name">
+                <i class="fa-regular fa-circle-check pe-2 text-success d-none"></i><i
+                    class="fa-regular fa-circle-xmark pe-2 text-danger"></i>
+                Contain only A-Z chars or Space Minimum 3 characters and Maximum 30
+            </div>
+            <input type="text" id="signUserEmail" class="form-control my-3 " placeholder="Enter your email">
+            <div id="VaildationEmail" class="d-none">
+                Please Enter a unique and valid Email.
+            </div>
+            <div id="existEmail" class="d-none">
+                This Email already Exist
+            </div>
+            <input type="password" id="signUserPass" class="form-control my-3" placeholder="Enter your password">
+            <div id="vaildationPassword" class="d-none">
+                <div class="char text-start">
+                    <i class="fa-regular fa-circle-check pe-2 text-success d-none"></i><i
+                        class="fa-regular fa-circle-xmark pe-2 text-danger"></i>
+                    Contain Minimum 8 characters and Maximum 20
+                </div>
+                <div class="symbol text-start">
+                    <i class="fa-regular fa-circle-check pe-2 text-success d-none"></i><i
+                        class="fa-regular fa-circle-xmark pe-2 text-danger"></i>
+                    Contain at least one symbol
+                </div>
+                <div class="number text-start">
+                    <i class="fa-regular fa-circle-check pe-2 text-success d-none"></i><i
+                        class="fa-regular fa-circle-xmark pe-2 text-danger"></i>
+                    Contain At least one Number
+                </div>
+                <div class="upCase text-start">
+                    <i class="fa-regular fa-circle-check pe-2 text-success d-none"></i><i
+                        class="fa-regular fa-circle-xmark pe-2 text-danger"></i>
+                    Contain At least one uppercase character
+                </div>
+                <div class="loCase text-start">
+                    <i class="fa-regular fa-circle-check pe-2 text-success d-none"></i><i
+                        class="fa-regular fa-circle-xmark pe-2 text-danger"></i>
+                    Contain At least one lowercase character
+                </div>
+            </div>
+            <button id="signUpBtn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p>Don’t have an account? <a href="index.html">Sign In</a></p>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signUp.js"></script>
+</body>
+
+</html>

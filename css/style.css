@@ -1,0 +1,65 @@
+body{
+    background-color: #24353F;
+    font-family: "Titillium Web",sans-serif;
+    font-weight: 900;
+}
+#home{
+    height: 75vh;
+}
+.navbar,.welcome{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+}
+.welcome h1{
+    color: #17A2B8;
+}
+
+.inner{
+    width: 65%;
+}
+
+.system{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 65%;
+    color: #b6b6b6;
+}
+.system h1{
+    color: #17A2B8;
+}
+
+.system input,.system input:focus{
+    background-color: transparent;
+    color: #fff;
+}
+
+.system input::placeholder{
+    color: #b6b6b6
+}
+
+.system button{
+    color: #17A2B8;
+    border-color: #17A2B8;
+}
+
+.system button:hover{
+    background-color: #17A2B8;
+}
+
+.system a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.system a:hover{
+    text-decoration: underline;
+}
+
+.text-start{
+    color: #dcd7d7;
+}
+
+
+@font-face {
+    font-family: "Titillium Web";
+    src: url(../webfonts/TitilliumWeb-Regular.ttf);
+}
